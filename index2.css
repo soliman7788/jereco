@@ -52,7 +52,7 @@ header{
     font-weight: 800px;
     display: flex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(6, 16, 15);
+    color: rgba(6, 16, 15, 0.603);
     size: contain;
     padding-top: 600px;
     padding-left: 30px;
@@ -108,5 +108,18 @@ header{
     
 }
 
+@media  (max-width:1023px){
+    header{
+        padding: 15px 20px;
+    }
 
+    .picures img{
+        padding: 5px 10px;
+    }
+    
+    .hello h1{
+        padding-bottom: 100px;
+    }
+    
+}
 
